@@ -49,7 +49,7 @@ public class Eventos implements Listener {
                 e.getPlayer().spigot().sendMessage(ChatMessageType.ACTION_BAR, TextComponent.fromLegacyText(p));
 
             }
-        }.runTaskTimer(start, 0L, 200L);
+        }.runTaskTimer(start, 0L, 100L);
 
     }
 }

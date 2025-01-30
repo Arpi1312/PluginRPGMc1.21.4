@@ -36,6 +36,7 @@ public class Admin implements CommandExecutor {
                             p.sendMessage("Legion no Registrada");
                         }
                         start.getConfig().set("Players." + targetPlayer.getName() + ".ActionBar", "⚔1:0  ⛉2:0  ⚔3:0  ⛉4:0  ⚔5:0");
+                        start.saveConfig();
                     } else {
                         p.sendMessage("Player not found or not online.");
                     }
