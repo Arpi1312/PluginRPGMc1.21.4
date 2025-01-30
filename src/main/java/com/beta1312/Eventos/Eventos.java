@@ -36,6 +36,8 @@ public class Eventos implements Listener {
             e.getPlayer().sendMessage("Hola de nuevo " + playerName + "!");
         }
 
+
+
         new BukkitRunnable() {
 
             @Override
@@ -45,6 +47,9 @@ public class Eventos implements Listener {
                     cancel();
                     return;
                 }
+
+
+
                 String p = start.getConfig().getString("Players." + e.getPlayer().getName() + ".ActionBar");
                 e.getPlayer().spigot().sendMessage(ChatMessageType.ACTION_BAR, TextComponent.fromLegacyText(p));
 
