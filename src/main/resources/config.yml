@@ -1,2 +1,4 @@
-Server:
-  Probability-Mobs: 50
+ServerAdmin:
+  #Probability-Mobs
+  PM: 50
+Players:

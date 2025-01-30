@@ -2,3 +2,6 @@ name: CaramelitoServerPlugin
 version: '1.0-SNAPSHOT'
 main: com.beta1312.Start.Start
 api-version: '1.21'
+commands:
+  admin:
+  up:
